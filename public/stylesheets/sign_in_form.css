@@ -1,0 +1,34 @@
+.sign-in_form {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 250px;
+  height: 50%;
+  margin: auto;
+}
+
+.sign-in_form > input {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.sign-in_form > input:focus {
+  z-index: 2;
+}
+
+.sign-in_form > input[type="text"] {
+  margin-bottom: -1px;
+  border-radius: 25px 0 25px 25px;
+}
+
+.sign-in_form > input[type="password"] {
+  margin-bottom: 10px;
+  border-radius: 25px 25px 25px 0;
+}

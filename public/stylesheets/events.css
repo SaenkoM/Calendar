@@ -1,0 +1,62 @@
+.event_modals {
+  width: 200px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  border: 2px black solid;
+  z-index: 200;
+  text-align: center;
+  border-radius: 15px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  background-color: white;
+}
+
+#add_event {
+  height: 125px;
+  text-align: center;
+}
+
+#add_event > .event_data {
+  display: inline-block;
+  text-align: center;
+  width: 85px;
+  margin: 5px;
+}
+
+#add_event > #inputTitle {
+  display: inline-block;
+  text-align: center;
+  width: 180px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#add_event > button {
+  display: inline-block;
+  width: 120px;
+  margin-top: 5px;
+}
+
+#remove_event {
+  height: 85px;
+}
+
+#remove_event > p {
+  width: 100%;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#remove_event > div {
+  margin-left: 5px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+#remove_event > div > button {
+  width: 75px;
+}

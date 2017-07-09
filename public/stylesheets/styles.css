@@ -1,0 +1,77 @@
+#calendar {
+  width: 250px;
+  height: 1080px;
+  font-weight: 200;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#timeline {
+  font-family: 'Open Sans';
+  width: 250px;
+  height: inherit;
+}
+
+#timeline > p {
+  width: inherit;
+  height: 60px;
+  margin: 0;
+}
+
+.time_even {
+  font-size: 16px;
+  border-top: 1px #E2ECF5 solid;
+}
+
+.time_odd {
+  font-size: 12px;
+}
+
+#timeline > p > span {
+  width: 50px;
+  float: left;
+  text-align: center;
+  line-height: 1;
+  cursor: pointer;
+}
+
+#events_list {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  position: absolute;
+  top: 0;
+  left: 50px;
+  width: 200px;
+}
+
+#events_list > .events {
+  background-color: #E2ECF5;
+  border-left: 2px #6E9ECF solid;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  z-index: 100;
+  padding-left: 4px;
+  line-height: 2;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  cursor: pointer;
+}
+
+#export {
+  width: 120px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+#download_anchor {
+  display: none;
+}
